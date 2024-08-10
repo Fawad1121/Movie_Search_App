@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Final_assingment" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/link_color</item> <!-- Soft Blue -->
+        <item name="colorPrimaryVariant">@color/border_color</item> <!-- Gray -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/button_color</item> <!-- Peach -->
+        <item name="colorSecondaryVariant">@color/button_color</item> <!-- Peach -->
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/background_color</item> <!-- Light Sea Green -->
+        <item name="android:windowBackground">@color/background_color</item> <!-- Light Sea Green -->
+        <!-- Other default colors -->
+        <item name="android:textColor">@color/black</item> <!-- Dark Slate Gray -->
+    </style>
+
+    <style name="Theme.Final_assingment" parent="Base.Theme.Final_assingment" />
+</resources>

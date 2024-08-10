@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_logo"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="App Logo"/>
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Favorite Movie"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Movie Title -->
+        <EditText
+            android:id="@+id/editTextMovieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Title"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Studio -->
+        <EditText
+            android:id="@+id/editTextStudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Studio"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Critics Rating -->
+        <EditText
+            android:id="@+id/editTextCriticsRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Critics Rating (0-10)"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Movie Poster (thumbnail) link -->
+        <EditText
+            android:id="@+id/editTextPosterLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Movie Poster Link"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

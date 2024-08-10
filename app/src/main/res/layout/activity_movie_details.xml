@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Movie Poster -->
+        <ImageView
+            android:id="@+id/imageViewPosterDetail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Movie Title Label -->
+        <TextView
+            android:id="@+id/labelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/textViewTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Movie Studio Label -->
+        <TextView
+            android:id="@+id/labelStudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studio:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Movie Studio -->
+        <TextView
+            android:id="@+id/textViewStudioDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Movie Critics Rating Label -->
+        <TextView
+            android:id="@+id/labelRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Critics Rating:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Movie Critics Rating -->
+        <TextView
+            android:id="@+id/textViewRatingDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/buttonDeleteMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Movie"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:layout_marginEnd="16dp"/>
+
+            <Button
+                android:id="@+id/buttonAddMoreMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add More Movies"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
